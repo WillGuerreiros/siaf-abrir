@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(() => {
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId === "abrir-com-selecao") {
     const textoSelecionado = encodeURIComponent(info.selectionText);
-    const url = `http://http://siaf/Cadastro_Consultar_Cliente.asp?cod_cliente=${textoSelecionado}`;
+    const url = `http://siaf/Cadastro_Consultar_Cliente.asp?cod_cliente=${textoSelecionado}`;
     chrome.tabs.create({ url });
   }
 });

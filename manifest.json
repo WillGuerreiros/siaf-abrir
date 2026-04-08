@@ -1,15 +1,17 @@
-
-    {
+{
   "manifest_version": 3,
-  "name": "router-1088",
+  "name": "abrir siaf",
   "version": "1.0",
-  "description": "router-1088",
-  "permissions": ["contextMenus", "tabs", "scripting"],
+  "description": "abrir siaf",
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "scripting"
+  ],
   "background": {
-    "service_worker": "router-1088.js"
+    "service_worker": "siaf.js"
   },
   "action": {
     "default_title": "Extensão Ativada"
   }
 }
-
